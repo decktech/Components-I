@@ -32,7 +32,6 @@ menButton.addEventListener("click", (evt) => {
   return menDiv;
 
 }
-console.log(menuMaker(menuItems))
 const newMenu = menuMaker(menuItems);
 document.querySelector('.header').appendChild(newMenu);
 /*
